@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Materia</title>
+    <link rel="stylesheet" href="css/ingus.css">
+</head>
+<body>
+    <div class="form-card">
+        <h2>Registrar materia</h2>
+        <form method="POST" action="ingusc.php">
+            <div class="form-group">
+                <label for="nombreMateria">Nombre de la materia:</label>
+                <input type="text" name="nombreMateria" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nombreMateria">Encargado de la materia:</label>
+                <input type="text" name="profe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cod">Codigo de la materia:</label>
+                <input type="text" name="cod" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion">Descripción de la materia:</label>
+                <input type="text" name="descripcion" required>
+            </div>
+            <button type="submit" class="submit-button">Registrar materia</button>
+        </form>
+    </div>
+</body>
+</html>
